@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="Campo1" onAction="#texto1" text="0" layoutX="14.0" layoutY="122.0" />
+      <TextField fx:id="Campo2" onAction="#texto2" text="0" layoutX="14.0" layoutY="171.0" />
+      <Label fx:id="Label1" layoutX="19.0" layoutY="105.0" text="Datos1:" />
+      <Label fx:id="Label2" layoutX="20.0" layoutY="154.0" text="Dato 2:" />
+      <Label alignment="CENTER" layoutX="20.0" layoutY="14.0" prefHeight="45.0" prefWidth="464.0" text="Graficos" />
+      <Label layoutX="20.0" layoutY="71.0" text="Datos para PieChart" />
+      <Label layoutX="313.0" layoutY="71.0" text="Datos para BarChart:" />
+      <Label layoutX="320.0" layoutY="105.0" text="Datos1:" />
+      <Label layoutX="320.0" layoutY="154.0" text="Datos2:" />
+      <Label layoutX="320.0" layoutY="200.0" text="Datos3:" />
+      <Label layoutX="320.0" layoutY="251.0" text="Datos4:" />
+      <Label layoutX="320.0" layoutY="293.0" text="Datos5:" />
+      <Label layoutX="320.0" layoutY="341.0" text="Datos6:" />
+      <TextField fx:id="Campo1b" text="0" layoutX="313.0" layoutY="122.0" />
+      <TextField fx:id="Campo2b" text="0" layoutX="313.0" layoutY="171.0" />
+      <TextField fx:id="Campo3b" text="0" layoutX="313.0" layoutY="217.0" />
+      <TextField fx:id="Campo4b" text="0" layoutX="313.0" layoutY="268.0" />
+      <TextField fx:id="Campo5b" text="0" layoutX="313.0" layoutY="310.0" />
+      <TextField fx:id="Campo6b" text="0" layoutX="313.0" layoutY="358.0" />
+      <Button onAction="#InvocarPiechart"  layoutX="39.0" layoutY="281.0" mnemonicParsing="false" text="Generar Grafico PieChart" />
+      <Button onAction="#InvocarBarChart" layoutX="39.0" layoutY="323.0" mnemonicParsing="false" text="Generar Grafico BarChart" />
+   </children>
+</AnchorPane>

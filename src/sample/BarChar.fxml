@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="440.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerBarChar">
+   <children>
+      <BarChart fx:id="barChart" layoutX="14.0" layoutY="28.0" prefHeight="313.0" prefWidth="418.0" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="177.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button fx:id="volvervolver2" layoutX="117.0" layoutY="360.0" mnemonicParsing="false" onAction="#cerrarVentana2" text="Volver" />
+   </children>
+</AnchorPane>
